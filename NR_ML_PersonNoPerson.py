@@ -1,3 +1,13 @@
+# Organization : Jefferson County Open Space
+# Creator : Chris White
+# Date Created : 5/1/2022
+# Editor :
+# Script Name : NR_ML_PersonNoPerson
+# File Location : "M:\GIS_TEAM\3_Resources\3_4_Tools_and_Software\Scripts\Python\Jpg_Exif_Data_Extract\NR_ML_PersonNoPerson.py"
+# Short Description of Script : This script uses a machine learning model generated using the application Lobe a.i. designed to 
+# identify if a photo has a person in it or not. The Lobe a.i. uses TensorFlow and simplifies the process of creating a machine 
+# learning model.
+
 from lobe import ImageModel
 import shutil
 from PIL import Image
